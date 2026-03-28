@@ -29,7 +29,10 @@ const sampleListings = [
 
 export function VisualProof() {
   return (
-    <section className="py-20 bg-white dark:bg-zinc-950 overflow-hidden">
+    <section
+      id="listings"
+      className="scroll-mt-20 py-20 bg-white dark:bg-zinc-950 overflow-hidden"
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-12 text-center">
         <p className="text-xl font-medium text-zinc-900 dark:text-zinc-50">
           What you see here is exactly what you&apos;ll meet.

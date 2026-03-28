@@ -20,7 +20,10 @@ export function Education() {
   ];
 
   return (
-    <section className="relative py-32 bg-white dark:bg-zinc-50 overflow-hidden">
+    <section
+      id="education"
+      className="relative scroll-mt-20 py-32 bg-white dark:bg-zinc-50 overflow-hidden"
+    >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#006A4C08_1px,transparent_1px),linear-gradient(to_bottom,#006A4C08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
       
       <div className="relative mx-auto container px-4 sm:px-6 lg:px-8">

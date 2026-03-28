@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden py-20 sm:py-32 bg-linear-to-br from-[#f6eede] via-[#D67B28]/5 to-[#006A4C]/10 dark:from-[#006A4C]/20 dark:via-[#D67B28]/10 dark:to-[#006A4C]/20">
+    <section
+      id="hero"
+      className="relative scroll-mt-20 overflow-hidden py-20 sm:py-32 bg-linear-to-br from-[#f6eede] via-[#D67B28]/5 to-[#006A4C]/10 dark:from-[#006A4C]/20 dark:via-[#D67B28]/10 dark:to-[#006A4C]/20"
+    >
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-[#006A4C]/20 blur-3xl"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[600px] w-[600px] rounded-full bg-linear-to-r from-[#006A4C]/10 to-[#D67B28]/10 blur-3xl"></div>

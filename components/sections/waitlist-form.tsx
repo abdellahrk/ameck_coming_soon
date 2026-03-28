@@ -14,7 +14,7 @@ export function WaitlistForm() {
   };
 
   return (
-    <section className="py-24 bg-zinc-50 dark:bg-zinc-900" id="waitlist">
+    <section className="scroll-mt-20 py-24 bg-zinc-50 dark:bg-zinc-900" id="waitlist">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="bg-white dark:bg-zinc-950 rounded-3xl shadow-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden">
           <div className="p-8 sm:p-12">

@@ -18,7 +18,10 @@ export function SocialProof() {
   ];
 
   return (
-    <section className="relative py-32 bg-white dark:bg-zinc-50 overflow-hidden">
+    <section
+      id="stats"
+      className="relative scroll-mt-20 py-32 bg-white dark:bg-zinc-50 overflow-hidden"
+    >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#006A4C08_1px,transparent_1px),linear-gradient(to_bottom,#006A4C08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
       <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-[#006A4C]/5 via-transparent to-[#D67B28]/5"></div>
       

@@ -23,7 +23,10 @@ const painPoints = [
 
 export function Pain() {
   return (
-    <section className="relative py-32 bg-[#006A4C] overflow-hidden">
+    <section
+      id="problem"
+      className="relative scroll-mt-20 py-32 bg-[#006A4C] overflow-hidden"
+    >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
      
       <div className="relative mx-auto container px-4 sm:px-6 lg:px-8">
