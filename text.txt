@@ -1,0 +1,388 @@
+
+🔥 SECTION 1: HERO (ABOVE THE FOLD)
+
+Layout:
+
+Left: Copy
+
+Right: Phone mockup or real listing scroll
+
+
+
+
+COPY:
+
+Headline:
+
+> Find Verified Houses in Buea Without Paying to Look
+
+
+
+
+Subheadline:
+
+> No fake listings. No wasted time. No unnecessary viewing fees.
+Just real houses from trusted agents — ready when you are.
+
+
+
+
+CTA (Primary):
+
+> Get Early Access
+
+
+
+CTA (Secondary):
+
+> View Sample Listings
+
+
+
+
+Micro-trust line:
+
+> Joining 200+ people already waiting for Ameck
+
+
+
+
+
+💥 SECTION 2: VISUAL PROOF (SCROLL HOOK)
+
+Layout:
+
+Horizontal scroll of real property cards
+
+
+
+Each card shows:
+
+Image
+
+Price
+
+Location (Molyko, etc.)
+
+“Verified” badge
+
+
+
+
+Caption:
+
+> What you see here is exactly what you’ll meet.
+
+
+
+
+😤 SECTION 3: PAIN (EMOTIONAL HIT)
+
+Layout:
+
+Centered text, dark background
+
+
+
+COPY:
+
+> Finding a house in Buea shouldn’t feel like this:
+
+
+
+Calling agent after agent with no results
+
+Paying just to see houses
+
+Arriving and it’s not what you were promised
+
+Wasting days searching with no clarity
+
+
+Punchline:
+
+> This system is broken.
+
+
+
+🚀 SECTION 4: SOLUTION (AMECK INTRO)
+Layout:
+
+
+
+COPY:
+
+Headline:
+
+> Meet Ameck — The Smarter Way to Find Your Next Home
+
+
+Body:
+
+Ameck is a verified property platform built to remove the stress, uncertainty, and wasted effort from house hunting.
+
+
+
+Feature Blocks (icons + text):
+
+Verified Listings Only
+Every house is checked before it reaches you
+
+Real Photos & Videos
+No surprises. What you see is real
+
+Trusted Agents
+Work only with verified professionals
+
+Faster Decisions
+Find what fits — without wasting time
+
+
+
+🛡️ SECTION 5: TRUST SYSTEM (CORE DIFFERENTIATOR)
+
+Layout:
+
+3-step horizontal process
+
+
+
+COPY:
+
+Headline:
+
+> How Ameck Ensures You Can Trust Every Listing
+
+
+
+
+Steps:
+
+1. Agent Verification
+We confirm identity and credibility
+
+2. Property Validation
+Listings are reviewed and checked
+
+3. Quality Approval
+Only accurate listings go live
+
+
+
+Closing line:
+
+> If it’s not real, it doesn’t go on Ameck.
+
+
+
+
+📊 SECTION 6: SOCIAL PROOF
+
+Layout:
+
+Cards or counters
+
+
+
+COPY:
+
+50+ Verified Listings Ready
+
+20+ Trusted Agents Onboard
+
+200+ People Waiting
+
+
+
+Optional testimonial (even if early, simulate realistic):
+
+> “If this works the way it says, it will change everything.”
+
+
+
+
+
+⏳ SECTION 7: URGENCY + EXCLUSIVITY
+
+Layout:
+
+Highlight block (gold accent)
+
+
+COPY:
+
+Headline:
+
+> Early Access is Limited
+
+
+
+
+We are onboarding a small number of users first to ensure quality and smooth experience.
+
+
+
+Benefits:
+
+See listings before public release
+
+Get priority access to best houses
+
+Avoid the rush
+
+
+
+
+📩 SECTION 8: WAITLIST FORM (HIGH-CONVERSION CORE)
+
+Layout:
+
+Clean card, centered
+
+
+
+COPY:
+
+Headline:
+
+> Join the Ameck Priority List
+
+
+
+
+Subtext:
+
+Tell us what you’re looking for so we can match you faster.
+
+
+
+FORM FIELDS:
+
+Name
+WhatsApp Number
+
+
+Preferred Location
+
+Molyko
+
+Bomaka
+
+Mile 16
+
+Others
+
+
+Budget Range
+
+Under 50k
+
+50k–100k
+
+100k+
+
+
+
+Property Type
+
+Room
+
+Studio
+
+Apartment
+
+
+
+When do you need a house?
+
+Immediately
+
+Within 1–2 months
+
+Just exploring
+
+
+
+CTA BUTTON:
+
+> Get Early Access
+
+
+
+Microcopy:
+> No spam. Only verified listings and early access updates.
+
+
+
+
+🧠 SECTION 9: EDUCATION (AUTHORITY BUILDING)
+
+Layout:
+
+Blog-style short content
+
+COPY:
+
+Headline:
+
+> Why Most People Struggle to Find Good Houses in Buea
+
+
+
+
+Short explanation of:
+
+Fragmentation
+
+Lack of trust
+
+Agent inefficiencies
+
+
+Close:
+
+> Ameck fixes this by creating a verified, structured system.
+
+
+
+
+🎬 SECTION 10: FINAL CTA (CLOSING MOMENT)
+
+Layout:
+
+Bold, emotional, simple
+
+
+COPY:
+
+Headline:
+
+> Your Next Home Shouldn’t Be This Hard to Find
+
+
+
+Subtext:
+
+Ameck is almost ready. Be among the first to experience it.
+
+
+CTA:
+
+> Join the Priority Waitlist Now
+
+
+🦶 FOOTER
+
+Simple links:
+
+About
+
+Contact
+
+WhatsApp
+
+
+Tagline:
+
+
+> Ameck — Verified Homes. Zero Stress.
