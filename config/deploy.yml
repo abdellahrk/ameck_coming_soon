@@ -1,0 +1,86 @@
+# Name of your application. Used to uniquely configure containers.
+service: ameck_waitlist
+
+# Name of the container image.
+image: abdellahramadan/ameck_waitlist
+
+# Deploy to these servers.
+servers:
+    web:
+        hosts:
+            - 62.171.184.244
+
+# Enable SSL auto certification via Let's Encrypt and allow for multiple apps on a single web server.
+# Remove this section when using multiple web servers and ensure you terminate SSL at your load balancer.
+#
+# Note: If using Cloudflare, set encryption mode in SSL/TLS setting to "Full" to enable CF-to-app encryption.
+proxy:
+    ssl: true
+    host: waitlist.ameck.co
+    # Proxy connects to your container on port 80 by default.
+    app_port: 3000
+    healthcheck:
+        interval: 10
+        timeout: 120
+        path: /
+
+deploy_timeout: 120
+
+# Credentials for your image host.
+registry:
+  server: registry.apphak.org
+  username: abdellah
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+# Configure builder setup.
+builder:
+    arch: amd64
+    dockerfile: Dockerfile
+    remote: ssh://abdellah@62.171.184.244
+    # Pass in additional build args needed for your Dockerfile.
+    # args:
+    #   RUBY_VERSION: <%= ENV["RBENV_VERSION"] || ENV["rvm_ruby_string"] || "#{RUBY_ENGINE}-#{RUBY_ENGINE_VERSION}" %>
+
+# Inject ENV variables into containers (secrets come from .kamal/secrets).
+
+env:
+    clear:
+        # DB_HOST: 62.171.184.244
+        # SERVER_NAME: ":80"
+        # APP_ENV: prod
+        # TRUSTED_PROXIES: "127.0.0.1,10.0.0.0/8,172.16.0.0/12"
+        # CADDY_GLOBAL_OPTIONS: "admin off"
+
+    secret:
+
+
+# Aliases are triggered with "bin/kamal <alias>". You can overwrite arguments on invocation:
+# "bin/kamal app logs -r job" will tail logs from the first server in the job section.
+#
+# aliases:
+#   shell: app exec --interactive --reuse "bash"
+
+# Use a different ssh user than root
+
+ssh:
+    user: abdellah
+
+# Use a persistent storage volume.
+# volumes:
+#     - "app_storage:/app/storage"
+#     - "/var/lib/ameck/jwt:/app/config/jwt"
+
+# Bridge fingerprinted assets, like JS and CSS, between versions to avoid
+# hitting 404 on in-flight requests. Combines all files from new and old
+# version inside the asset_path.
+#
+# asset_path: /app/public/assets
+
+# Configure rolling deploys by setting a wait time between batches of restarts.
+#
+boot:
+    limit: 3 # Can also specify as a percentage of total hosts, such as "25%"
+    wait: 2
+
+# accessories:

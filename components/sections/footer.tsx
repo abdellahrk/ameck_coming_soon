@@ -183,7 +183,7 @@ export function Footer() {
                     <span className="block text-sm font-semibold uppercase tracking-wider text-zinc-500">
                       WhatsApp
                     </span>
-                    Message us anytime
+                    ‪+237 6 77 91 13 89
                   </span>
                 </a>
               </li>

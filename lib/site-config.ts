@@ -3,9 +3,9 @@
  * `whatsappPhone`: country + number, no + or spaces (e.g. 2376XXXXXXXX).
  */
 export const siteConfig = {
-  email: "hello@ameck.com",
+  email: "ameckcmr@gmail.com",
   locationLine: "Buea, Southwest Region, Cameroon",
-  whatsappPhone: "237670000000",
+  whatsappPhone: "+237 6 77 91 13 89",
   social: {
     facebook: "https://www.facebook.com/",
     instagram: "https://www.instagram.com/",
