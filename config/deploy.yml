@@ -44,15 +44,15 @@ builder:
 
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
 
-env:
-    clear:
-        # DB_HOST: 62.171.184.244
-        # SERVER_NAME: ":80"
-        # APP_ENV: prod
-        # TRUSTED_PROXIES: "127.0.0.1,10.0.0.0/8,172.16.0.0/12"
-        # CADDY_GLOBAL_OPTIONS: "admin off"
+# env:
+#     clear:
+#         # DB_HOST: 62.171.184.244
+#         # SERVER_NAME: ":80"
+#         # APP_ENV: prod
+#         # TRUSTED_PROXIES: "127.0.0.1,10.0.0.0/8,172.16.0.0/12"
+#         # CADDY_GLOBAL_OPTIONS: "admin off"
 
-    secret:
+#     secret:
 
 
 # Aliases are triggered with "bin/kamal <alias>". You can overwrite arguments on invocation:
