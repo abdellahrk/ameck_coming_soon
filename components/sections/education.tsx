@@ -25,13 +25,13 @@ export function Education() {
       className="relative scroll-mt-20 py-32 bg-white dark:bg-zinc-50 overflow-hidden"
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#006A4C08_1px,transparent_1px),linear-gradient(to_bottom,#006A4C08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
-      
+
       <div className="relative mx-auto container px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           <div className="lg:sticky lg:top-24">
             <p className="text-sm font-semibold tracking-wider text-[#D67B28] uppercase mb-4">The Problem</p>
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-[#006A4C] mb-6">
-              Why Finding a Home in Buea Feels Impossible
+              Why Finding a Home in Cameroon Feels Impossible
             </h2>
             <p className="text-xl text-zinc-700 dark:text-zinc-800 mb-8 leading-relaxed">
               House hunting should be exciting—not exhausting. But the current system is designed to frustrate you at every turn.

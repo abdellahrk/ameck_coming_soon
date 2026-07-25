@@ -1,17 +1,17 @@
 export function SocialProof() {
   const stats = [
-    { 
-      value: "50+", 
+    {
+      value: "50+",
       label: "Verified Listings",
       sublabel: "Ready to view"
     },
-    { 
-      value: "20+", 
+    {
+      value: "20+",
       label: "Trusted Agents",
       sublabel: "Vetted & approved"
     },
-    { 
-      value: "200+", 
+    {
+      value: "200+",
       label: "Early Adopters",
       sublabel: "Joining the waitlist"
     },
@@ -24,7 +24,7 @@ export function SocialProof() {
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#006A4C08_1px,transparent_1px),linear-gradient(to_bottom,#006A4C08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
       <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-[#006A4C]/5 via-transparent to-[#D67B28]/5"></div>
-      
+
       <div className="relative mx-auto container px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div>
@@ -32,7 +32,7 @@ export function SocialProof() {
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-[#006A4C] mb-8">
               Building Trust, One Listing at a Time
             </h2>
-            
+
             <div className="space-y-8">
               {stats.map((stat, index) => (
                 <div
@@ -64,10 +64,10 @@ export function SocialProof() {
                   <span className="text-3xl text-white">&quot;</span>
                 </div>
               </div>
-              
+
               <blockquote>
                 <p className="text-xl sm:text-2xl font-medium text-[#006A4C] leading-relaxed mb-8">
-                  If this works the way it says, it will change everything about finding a home in Buea.
+                  If this works the way it says, it will change everything about finding a home in Cameroon.
                 </p>
                 <footer className="flex items-center gap-3">
                   <div className="w-12 h-1 bg-[#D67B28] rounded-full"></div>

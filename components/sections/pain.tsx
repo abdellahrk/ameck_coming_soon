@@ -28,12 +28,12 @@ export function Pain() {
       className="relative scroll-mt-20 py-32 bg-[#006A4C] overflow-hidden"
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-size-[64px_64px]"></div>
-     
+
       <div className="relative mx-auto container px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <p className="text-sm font-semibold tracking-wider text-[#D67B28] uppercase mb-4">The Reality</p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
-            House Hunting in Buea Is <span className="text-[#D67B28]">Broken</span>
+            House Hunting in Cameroon Is <span className="text-[#D67B28]">Broken</span>
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
             Every day, people waste time, money, and energy navigating a system designed to frustrate them.
@@ -47,7 +47,7 @@ export function Pain() {
               className="relative group"
             >
               <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              
+
               <div className="relative p-8 border-l-4 border-[#D67B28]/50 group-hover:border-[#D67B28] transition-colors">
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <h3 className="text-2xl sm:text-3xl font-bold text-white">

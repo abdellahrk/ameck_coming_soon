@@ -1,29 +1,41 @@
 import Image from "next/image";
+import apartement from "../../assets/apartments.jpeg";
+import apartement0 from "../../assets/apartments_.jpeg";
+import apartement1 from "../../assets/appartments_1.jpeg";
+import apartement2 from "../../assets/apartments_2.jpeg";
+import apartement3 from "../../assets/apartments_3.jpeg";
 
 const sampleListings = [
   {
     id: 1,
-    location: "Molyko",
+    location: "Douala",
     price: "45,000",
-    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=600",
+    image: apartement0,
   },
   {
     id: 2,
-    location: "Bomaka",
+    location: "Maroua",
     price: "35,000",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=600",
+    image: apartement1,
   },
   {
     id: 3,
-    location: "Mile 16",
+    location: "Yaounde",
     price: "60,000",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=600",
+    image: apartement3,
   },
   {
     id: 4,
-    location: "Molyko",
+    location: "Bafoussam",
     price: "80,000",
-    image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=600",
+    image: apartement,
+
+  },
+  {
+    id: 4,
+    location: "Ebolowa",
+    price: "80,000",
+    image: apartement2,
   },
 ];
 
@@ -38,7 +50,7 @@ export function VisualProof() {
           What you see here is exactly what you&apos;ll meet.
         </p>
       </div>
-      
+
       {/* Horizontal Scroll Container */}
       <div className="relative">
         <div className="flex overflow-x-auto pb-8 hide-scrollbar snap-x snap-mandatory gap-6 px-4 sm:px-6 lg:px-8">

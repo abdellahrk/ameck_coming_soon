@@ -16,7 +16,7 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-5xl md:text-6xl">
-              Find Verified Houses in Buea Without Paying to Look
+              Find Verified Houses in Cameroon Without Paying to Look
             </h1>
             <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400 max-w-xl">
               No fake listings. No wasted time. No unnecessary viewing fees. Just
@@ -36,12 +36,12 @@ export function Hero() {
           </div>
           <div className="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center lg:justify-center">
             <div className="relative">
-              <Image 
-                src="/img/app.png" 
-                width={300} 
-                height={600} 
-                className="mx-auto drop-shadow-2xl" 
-                alt="Ameck App" 
+              <Image
+                src="/img/app.png"
+                width={300}
+                height={600}
+                className="mx-auto drop-shadow-2xl"
+                alt="Ameck App"
                 priority
               />
               <div className="absolute inset-0  pointer-events-none rounded-3xl"></div>

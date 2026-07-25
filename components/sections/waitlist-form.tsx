@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 // ← Change this to your API endpoint
-const WAITLIST_API_ENDPOINT = "https://ameck.co/api/v1/subscribe-waitlist";
+const WAITLIST_API_ENDPOINT = "https://ameck.ddev.site/api/v1/subscribe-waitlist"; //"https://ameck.co/api/v1/subscribe-waitlist";
 
 interface FormData {
   name: string;
@@ -37,7 +37,6 @@ export function WaitlistForm() {
     e.preventDefault();
     setStatus("submitting");
     setErrorMessage("");
-
     try {
       const res = await fetch(WAITLIST_API_ENDPOINT, {
         method: "POST",
