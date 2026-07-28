@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-// ← Change this to your API endpoint
+// ← Change this to your API endpoint here
 const WAITLIST_API_ENDPOINT = "https://ameck.co/api/v1/subscribe-waitlist";
 
 interface FormData {
